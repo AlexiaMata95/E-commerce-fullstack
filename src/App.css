@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+body{
+  background-color:#f8ede5;
+  font-family: 'Niconne', cursive;
+}
+
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(20px + 2vmin); 
+  background-color: #31010c; 
+  font-family: 'Niconne', cursive;
+  color: white;
+}
+.App-header a{
+  text-decoration: none;
+  color:#f8ede5;
+}
+.usersLogReg{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding:2rem;
+  align-items: center;
+}
+.logo{
+  margin: 0;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  height: 10vw;
+}
+.carrito{
+  margin: 0;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrito img{
+  height: 5vw;
+}
+.link{
+  text-decoration: none;
+  padding: 1vw 2vw;
+  color:white;
+  border-radius: 40px;
+}
+.link:hover{
+  background-color:black;
+}
+.jumbotron-image{
+  width: 100%;
+}
+.img-prod{
+  width: 250px;
+  height: 350px;
+}
+.services{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.services-div{
+  width: 50%;
+}
+.services-img{
+  padding: 0.5rem;
+  width:fit-content;
+}
+.Carousel{
+  font-family: 'Niconne', cursive;
+}
+.Form{
+  background-color: #31010c;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem 10rem;
+  font-family: 'Niconne', cursive;
+  font-size: 5vh;
+  color: white;
+  padding: 3rem;
+}
+.titleform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  font-family: 'Niconne', cursive;
+  font-size: 10vh;
+  color: black;
+  padding: 3rem;
+}
+.Form label{
+  padding: 2rem 0;
+}
+.Form button{
+  margin: 2rem;
+  background-color: pink;
+  color: black;
+}
+.Form input{
+  border-radius: 50px;
+}
